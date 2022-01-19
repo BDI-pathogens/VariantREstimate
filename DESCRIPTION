@@ -1,0 +1,15 @@
+Package: VariantREstimate
+Type: Package
+Title: Estimate R and relative transmissibility of multiple variants of a virus
+Version: 0.1.0
+Author: Rob Hinch
+Maintainer: <robert.hinch@gmail.com>
+Depends: R (>= 3.3.0), Rcpp (>= 0.12.14), methods
+Imports: rstan (>= 2.17.3), rstantools (>= 1.4.0)
+LinkingTo: StanHeaders (>= 2.17.2), rstan (>= 2.17.3), Rcpp (>= 0.12.14), BH (>= 1.65.0.1),RcppEigen (>= 0.3.3.3.1)
+Imports: rstan
+Description: Estimate R and relative transmissibility of multiple variants of a virus
+License: GNU General Public License v3.0
+LazyData: TRUE
+Suggests: testthat
+

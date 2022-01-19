@@ -1,0 +1,15 @@
+# constants exposed by package
+export( model.strain_multiplier )
+
+# required packages
+import( rstan )
+import( Rcpp )
+import( rstantools )
+import( StanHeaders )
+import( data.table )
+import( plotly)
+import( BH )
+
+# dynamic link for Rcpp
+useDynLib( VariantREstimate, .registration = TRUE )
+
