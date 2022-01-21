@@ -55,7 +55,6 @@ The output of the example script is this plot containing the posterior distirubt
 <p><img src="documentation/plot_summer_alpha_delta.png"  height="700"></p>
 
 
-
 ## References
 <a id="1">[1]</a> 
 Hinch R., Panovska-Griffiths J., Probert W., Ferretti L., Wymant C., Di Lauro F., Baya N., Ghafari M., Abeler-Dörner, COG-UK, Fraser C. (2021), Estimating SARS-CoV-2 Variant Fitness and the Impact of Interventions in England using Statistical and Geo-Spatial Agent-Based Models. Phil. Trans Roy Soc A (under review)

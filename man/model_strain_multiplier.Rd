@@ -56,3 +56,6 @@ Look at https://github.com/BDI-pathogens/VariantREstimate/blob/main/examples/eng
 \code{> model <- model.strain_multiplier() }
 \code{> samples <- sampling( model, data = data, pars = pars )}
 }
+\references{
+Hinch R., Panovska-Griffiths J., Probert W., Ferretti L., Wymant C., Di Lauro F., Baya N., Ghafari M., Abeler-Dörner, COG-UK, Fraser C. (2021), Estimating SARS-CoV-2 Variant Fitness and the Impact of Interventions in England using Statistical and Geo-Spatial Agent-Based Models. Phil. Trans Roy Soc A (under review)
+}
