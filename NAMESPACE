@@ -1,6 +1,7 @@
 # constants exposed by package
 export( model.strain_multiplier )
 export( example.data.case_cog_summer_alpha )
+export( example.data.case_cog_summer_alpha_delta )
 
 # required packages
 import( rstan )

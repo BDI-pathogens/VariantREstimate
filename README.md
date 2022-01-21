@@ -38,15 +38,22 @@ The sampled parameters are (see ```examples\england_summer_alpha.R``):
 * ```strain_multipliers``` - the relative transmissibility of the strains to the wild-type strains (output is relative to wild-type regardless of ```multiply_strain_multipliers``` - which controls the underlying parameter which is sampled and improves samplin)
 * ```R``` - array containing the daily estimated value of R(t) for the wild-type
 * ```R_comb``` - array containing the daily estimate of R(t) weighted by the number of infections across variants
-* ```jumps``` - array of estimated size of jumps (length ```n_jum)ps```)
+* ```jumps``` - array of estimated size of jumps (length ```n_jumps```)
 * ```daily_seed``` - array of estimated daily seeds(length ```n_strains```)
 
-## Example
-An example of a model fit is contained in ```examples\england_summer_alpha.R```, which takes data for SARS-Cov2 infections in England from the UK Dashboard and COG-UK between September 2020 and Januaray 2021.
+## Examples
+The first example of a model fit is contained in ```examples\england_summer_alpha.R```, which takes data for SARS-Cov2 infections in England from the UK Dashboard and COG-UK between September 2020 and January 2021.
 The model contains 3 variants of the virus  (wild-type, B.1.177, Alpha) and estimates the relative transmissibility of the variant to one another.
 The output of the example script is this plot containing the posterior distirubtions for the relative transmissibility of the variants and R(t) for both the wild-type variant the compositer R(t) across all variants.
 
 <p><img src="documentation/plot_summer_alpha.png"  height="700"></p>
+
+The second example of a model fit is contained in ```examples\england_summer_alpha_delta.R```, which takes data for SARS-Cov2 infections in England from the UK Dashboard and COG-UK between September 2020 and July 2021.
+The model contains 4 variants of the virus  (wild-type, B.1.177, Alpha, Delta) and estimates the relative transmissibility of the variant to one another.
+The output of the example script is this plot containing the posterior distirubtions for the relative transmissibility of the variants and R(t) for both the wild-type variant the compositer R(t) across all variants.
+
+<p><img src="documentation/plot_summer_alpha_delta.png"  height="700"></p>
+
 
 
 ## References
